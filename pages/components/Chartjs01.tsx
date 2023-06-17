@@ -29,6 +29,14 @@ import { Pie }  from "react-chartjs-2"
 
 import React from 'react'
 
+const formattedData = {
+  // formatar os dados de custoData para aos requisitos de gráfico de linha
+}
+
+const options = {
+  // Defina as opções do gráfico, como título, legendas, escalas, etc.
+}
+
 function Chartjs01() {
   const data = {
     labels: ["Red", "Blue", "Yellow"],

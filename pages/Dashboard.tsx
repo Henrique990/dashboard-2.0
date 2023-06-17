@@ -8,6 +8,7 @@ import Chartjs03 from './components/Chartjs03'
 import Chartjs04 from './components/Chartjs04'
 import Header from './components/Header'
 import Input from './components/Input'
+import JSONLoader from './components/JSONLoader'
 
 const user = {
   name: 'Tom Cook',
@@ -207,6 +208,7 @@ export default function Dashboard() {
             </div>
             <Chartjs03 />
             <Chartjs04 />
+            <JSONLoader />
           </div>
         </main>
       </div>
